@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coders-congress-blog/static/css/main.190e9b78.css",
-    "main.js": "/coders-congress-blog/static/js/main.2971f6de.js",
+    "main.js": "/coders-congress-blog/static/js/main.33998a9a.js",
     "static/js/787.28473e88.chunk.js": "/coders-congress-blog/static/js/787.28473e88.chunk.js",
     "static/media/image4.jpg": "/coders-congress-blog/static/media/image4.be27f8ed0a48da4e0683.jpg",
     "static/media/image3.jpg": "/coders-congress-blog/static/media/image3.724218d3cf96d66f63c8.jpg",
@@ -9,20 +9,20 @@
     "static/media/image6.jpg": "/coders-congress-blog/static/media/image6.c068d52625a8568693ef.jpg",
     "static/media/fontawesome-webfont.eot": "/coders-congress-blog/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/coders-congress-blog/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/image2.jpg": "/coders-congress-blog/static/media/image2.d2b1caed287c98b03ece.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/coders-congress-blog/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/coders-congress-blog/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/image5.jpg": "/coders-congress-blog/static/media/image5.831268fccc96b240bca4.jpg",
+    "static/media/image5.jpg": "/coders-congress-blog/static/media/image5.c4295d88e3e927a85658.jpg",
+    "static/media/image2.jpg": "/coders-congress-blog/static/media/image2.b741791d7060bc424a3d.jpg",
     "static/media/revicons.eot": "/coders-congress-blog/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/coders-congress-blog/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/coders-congress-blog/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coders-congress-blog/index.html",
     "main.190e9b78.css.map": "/coders-congress-blog/static/css/main.190e9b78.css.map",
-    "main.2971f6de.js.map": "/coders-congress-blog/static/js/main.2971f6de.js.map",
+    "main.33998a9a.js.map": "/coders-congress-blog/static/js/main.33998a9a.js.map",
     "787.28473e88.chunk.js.map": "/coders-congress-blog/static/js/787.28473e88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.190e9b78.css",
-    "static/js/main.2971f6de.js"
+    "static/js/main.33998a9a.js"
   ]
 }
