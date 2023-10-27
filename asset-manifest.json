@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coders-congress-blog/static/css/main.190e9b78.css",
-    "main.js": "/coders-congress-blog/static/js/main.e25e1002.js",
+    "main.js": "/coders-congress-blog/static/js/main.7af4dbae.js",
     "static/js/787.28473e88.chunk.js": "/coders-congress-blog/static/js/787.28473e88.chunk.js",
     "static/media/image4.jpg": "/coders-congress-blog/static/media/image4.be27f8ed0a48da4e0683.jpg",
     "static/media/image3.jpg": "/coders-congress-blog/static/media/image3.724218d3cf96d66f63c8.jpg",
@@ -18,11 +18,11 @@
     "static/media/revicons.woff": "/coders-congress-blog/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coders-congress-blog/index.html",
     "main.190e9b78.css.map": "/coders-congress-blog/static/css/main.190e9b78.css.map",
-    "main.e25e1002.js.map": "/coders-congress-blog/static/js/main.e25e1002.js.map",
+    "main.7af4dbae.js.map": "/coders-congress-blog/static/js/main.7af4dbae.js.map",
     "787.28473e88.chunk.js.map": "/coders-congress-blog/static/js/787.28473e88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.190e9b78.css",
-    "static/js/main.e25e1002.js"
+    "static/js/main.7af4dbae.js"
   ]
 }
