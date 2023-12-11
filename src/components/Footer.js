@@ -9,7 +9,7 @@ import '../App.css';
 const Footer = () => {
   return (
     <footer>
-	<div  align="right">&nbsp;&nbsp;&nbsp;&nbsp;Follow me:<br /><br />
+	<div  align="right">&nbsp;&nbsp;&nbsp;&nbsp;Follow us:<br /><br />
          </div>
 		 <div id="soMedLinks">	
 	{socialMediaLinks.reverse().map(socialmed => {

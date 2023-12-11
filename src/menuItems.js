@@ -57,7 +57,7 @@ export const menuItems = [
     ],
   },*/
   {  
-        title: 'My Videos & Blogs',
+        title: 'Videos & Blogs',
         url: 'video',
 	submenu: [
       {

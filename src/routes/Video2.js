@@ -4,7 +4,7 @@ import "../App.css"
 
 function App() {
   return (
-  <div><div><h1>My YouTube Blog</h1></div>
+  <div><h1 style={{color:"#DBA514"}}>My YouTube Blog </h1><br /><br />
 	<div className='flex-container'>
       <ReactPlayer
         url="https://www.youtube.com/watch?v=gElUxLiHnJc"

@@ -3,7 +3,7 @@ import image6 from '../images/image6.jpg';
 import ExperienceAccordion from "../components/ExperienceAccordion";
 
 const About = () => {
-  return (<div  align="center"><img className='images' src={image6} alt="" width='140' height='140' /><table width="50%"><h2>About Me</h2><br />
+  return (<div  align="center"><img className='images' src={image6} alt="" width='140' height='140' /><table width="50%"><h2 style={{color:"#DBA514"}}>About Me</h2><br />
   I am Kofi Owusu-Tufuor, a software engineer with 
   a background in Computer Science and Physics. Having
   undertaken a bachelor's degree programme at the University of Ghana-Legon,
