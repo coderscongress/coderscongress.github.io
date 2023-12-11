@@ -31,14 +31,14 @@ const Footer = () => {
       <div  align="center">
           
          Copyright © 2023  Coders Congress Blog. All Rights Reserved
-        
+        <br /><br /><br /><br />
       </div>
 	   
 	
   
 	
     </footer>
-	<br /><br /><br /><br />
+	
   );
 };
 
