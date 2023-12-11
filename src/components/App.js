@@ -1,5 +1,5 @@
 
-import {Routes, Route } from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Home from '../routes/Home';
 import PortfolioDemoApp from '../routes/PortfolioDemoApp';
 import AboutMe from '../routes/AboutMe';
@@ -19,6 +19,12 @@ import Video2 from '../routes/Video2';
 import ContactMe from '../routes/ContactMe';
 
 
+// Custom component for external URL redirection
+  const Index = () => {
+  window.location.href = 'https://conderscongress.github.io';
+  return null; // This component doesn't render anything
+};
+
 const App = () => {
   return (
     <>
@@ -26,7 +32,7 @@ const App = () => {
       <Routes>
 	  
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={Index} />
 		  <Route path="coders-congress-blog" element={<Home />} />
 		  <Route path="portfolio-demo-app" element={<PortfolioDemoApp />} />
 		  <Route path="about-me" element={<AboutMe />} />
