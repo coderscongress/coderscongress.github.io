@@ -27,19 +27,19 @@ const data = [
     label: "Image 3",
     alt: "image3",
     urlToImage: image3,
-	targetURL:"www.theglobegroove.com"
+	targetURL:"https://youtu.be/gElUxLiHnJc"
   },
   {
     label: "Image 4",
     alt: "image4",
     urlToImage:image4,
-	targetURL:"www.google.com"
+	targetURL:"https://youtu.be/gElUxLiHnJc"
   },
   {
     label: "Image 5",
     alt: "image5",
     urlToImage:image5,
-	targetURL:"www.coderscongress.blogspot.com"
+	targetURL:"https://coders-congress.blogspot.com"
   }
 ];
 
@@ -115,7 +115,7 @@ class MultiCarousel extends Component {
                   return (
                     <div className="card text-left mt-5" key={index}>
                       <a
-                          href={post.targetURL.substr(0,46)}
+                          href={post.targetURL.substr(0,25)}
                           target="_blank"
                           rel="noopener noreferrer" ><img
                         style={{marginLeft:"0px",marginRight:"0px",display:"flex",justifyContent:"center", height: "150px",width: "330px" }}
@@ -125,7 +125,7 @@ class MultiCarousel extends Component {
                         <h5 className="card-title">{post.label}</h5>
                         <p className="card-text">{post.label}</p>
                         <a
-                          href={post.targetURL}
+                          href={post.targetURL.substr(0,25)}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
