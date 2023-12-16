@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
+# Blogger Sitemap created on Wed, 18 Oct 2023 09:51:10 GMT
+# Sitemap built with https://www.labnol.org/blogger/sitemap
+
 User-agent: *
-Disallow:
+Disallow: /search
+Allow: /
+
+Sitemap: https://coderscongress.github.io/coders-congress-blog/atom.xml?redirect=false&start-index=1&max-results=500
