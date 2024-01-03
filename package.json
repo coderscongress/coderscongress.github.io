@@ -1,4 +1,4 @@
- {
+{
   "name": "coders-congress-blog",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "bootstrap": "^5.0.0",
     "boxicons": "^2.1.1",
     "font-awesome": "^4.7.0",
+    "html-to-react": "^1.7.0",
     "immutability-helper": "^3.1.1",
     "isexe": "^2.0.0",
     "react": "^18.2.0",
@@ -20,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-icons": "^4.2.0",
+    "react-markdown": "^9.0.1",
     "react-multi-carousel": "^2.8.4",
     "react-player": "^2.12.0",
     "react-responsive-carousel": "^3.2.23",
@@ -57,6 +59,26 @@
   },
   "homepage": "https://coderscongress.github.io",
   "devDependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "babel-plugin-twin": "^1.1.0",
     "gh-pages": "^5.0.0"
+  },
+  "babel": {
+    "presets": [
+      "react-app",
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ],
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      "babel-plugin-styled-components",
+      "babel-plugin-twin",
+      "babel-plugin-macros"
+    ]
   }
 }

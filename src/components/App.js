@@ -17,6 +17,7 @@ import Certifications from '../routes/Certifications';
 import Video from '../routes/Video';
 import Video2 from '../routes/Video2';
 import ContactMe from '../routes/ContactMe';
+import StaticPage from '../routes/StaticPage';
 
 
 // Custom component for external URL redirection
@@ -25,14 +26,16 @@ import ContactMe from '../routes/ContactMe';
   return null; // This component doesn't render anything
 };
 
+
 const App = () => {
+	
   return (
     <>
-
       <Routes>
 	  
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+		  <Route exact path="/:page" element={<StaticPage />} />
 		  <Route path="coders-congress-blog" element={<Home />} />
 		  <Route path="portfolio-demo-app" element={<PortfolioDemoApp />} />
 		  <Route path="about-me" element={<AboutMe />} />

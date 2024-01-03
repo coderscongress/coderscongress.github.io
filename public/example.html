@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Snippet Demo</title>
+    <style>
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+    </style>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyButton = document.getElementById('copyButton');
+            const codeSnippet = document.getElementById('codeSnippet');
+
+            copyButton.addEventListener('click', function() {
+                codeSnippet.select();
+                document.execCommand('copy');
+                alert('Code snippet copied to clipboard!');
+            });
+
+            const copyButton2 = document.getElementById('copyButton2');
+            const codeSnippet2 = document.getElementById('codeSnippet2');
+
+            copyButton2.addEventListener('click', function() {
+                codeSnippet2.select();
+                document.execCommand('copy');
+                alert('Code snippet2 copied to clipboard!');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Code Snippet Demo</h1>
+    <p>This is a demo page with multiple textareas to display code snippets. Users can copy the code to the clipboard.</p>
+
+    <textarea id="codeSnippet" readonly>
+// Your first code snippet goes here
+function helloWorld() {
+    console.log('Hello, World!');
+}
+    </textarea>
+
+    <button id="copyButton">Copy Snippet 1</button>
+
+    <textarea id="codeSnippet2" readonly>
+// Your second code snippet goes here
+function anotherFunction() {
+    alert('Another function!');
+}
+    </textarea>
+
+    <button id="copyButton2">Copy Snippet 2</button>
+</body>
+</html>
